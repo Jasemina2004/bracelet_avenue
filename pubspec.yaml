@@ -1,0 +1,33 @@
+name: bracelet_avenue
+description: An e-commerce app for handmade jewelry.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: 10.8.0
+  carousel_slider: ^4.1.1
+  http: ^0.13.5
+  url_launcher: ^6.1.7
+  shared_preferences: ^2.2.2
+  provider: ^6.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+ 
+
+
